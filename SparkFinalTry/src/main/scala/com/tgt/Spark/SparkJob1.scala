@@ -17,6 +17,5 @@ object SparkJob1 {
      println("Location of SCALA HOME : " + sys.env.get("SCALA_HOME"))
      
      sc.stop()
-     
   }
 }
